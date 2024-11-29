@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Georgia';
+    src: url(fuentes/Georgia.ttf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Autographysi';
+    src: url(fuentes/Autographysi.woff2) format('woff2'), 
+         url(fuentes/Autographysi.woff) format('woff'), 
+         url(fuentes/Autographysi.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    background-color: #fff;
+    font-family: 'Georgia';
+    overflow-x: hidden;
+}
+h1 {
+    color: #F60D82;
+    font-family: 'Georgia';
+    margin: 8%;
+}
+h2 {
+    color: #F60D82;
+    font-family: 'Autographysi';
+    font-size: 26pt;
+}
+h3 {
+    color: #F60D82;
+    padding: 8%;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #F60D82;
+    padding: 8pt;
+    border-radius: 20pt;
+    margin: 5%em;
+    line-height: normal; 
+    display: inline-block; 
+}
+section {
+    text-align: center;
+    overflow-y: hidden;
+    margin: 1em;
+    margin-top: 3em;
+}
+.iconos {
+    width: 15%;
+}
+header {
+    text-align: center;
+}
+header h1 {
+    color: #F60D82;
+    font-family: 'Autographysi';
+    font-size: 34pt;
+    margin: 5%;
+}
+header h3 {
+    padding-top: 0%;
+    padding-bottom: 8%;
+}
+#fecha img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+#days, #hours, #minutes {
+    color: #F60D82; 
+}
+table th {
+    color: #F60D82;
+}
+#fecha {
+    position: relative;
+}
+#flores3 {
+    position: absolute;
+    right: 65%;
+}
+#lugar {
+    position: relative;
+}
+#flores4 {
+    position: absolute;
+    width: 30%;
+    right: -2%;
+    bottom: 50%;
+}
+#cuentaregre {
+    position: relative;
+}
+#flores5 {
+    position: absolute;
+    right: 75%;
+}
+#cuentaregre h2 {
+    margin-bottom: -1em;
+}
+#vestimenta {
+    margin-top: 4em;
+    position: relative;
+}
+#flores6 {
+    position: absolute;
+    width: 25%;
+    right: 1%;
+    bottom: 50%;
+}
+#flores7 {
+    position: absolute;
+    width: 20%;
+    top: 302%;
+    left: 3%;
+}
+#flores8 {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+#colectivo h1 {
+    margin-bottom: 2pt;
+}
+#colectivo h2 {
+    font-size: 30pt;
+}
+#colectivo h3 {
+    margin-top: -1em;
+    margin-bottom: -10pt;
+    font-size: 12pt;
+}
+#colectivo h4 {
+    color: #F60D82;
+    font-size: 25pt;
+}
+footer {
+    margin-top: 5em;
+    text-align: center;
+    font-size: 8pt;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 375px) { /* Establece el límite para pantallas pequeñas */
+    #flores3, #flores4, #flores5, #flores6, #flores7 {
+        width: 25%; /* Ajusta el tamaño de las flores */
+    }
+}
+@media (max-width: 414px) { /* Establece el límite para pantallas pequeñas */
+    #flores3, #flores4, #flores5, #flores6, #flores7 {
+        width: 24%; /* Ajusta el tamaño de las flores */
+    }
+}
